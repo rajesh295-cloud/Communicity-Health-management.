@@ -10,10 +10,13 @@
 
 
 <div class="reg">
+
             <form class="form-horizontal" role="form"  method = 'POST'>
                 {% csrf_token %}
 
                 <h2>Registration</h2>
+                {% include 'messages.html'%}
+
                     <div class="form-group">
                     <label for="firstname" class="col-sm-3 control-label">First name *</label>
                     <div class="col-sm-9">
