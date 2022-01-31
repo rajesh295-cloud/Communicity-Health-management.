@@ -1,0 +1,86 @@
+{% extends 'layout.html' %}
+<title>Appointment </title>
+{% block main_content %}
+
+<section class="book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-heading text-center white">
+            <h2>Book an Appointment </h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+
+          <div class="appointment-form">
+            <form action="" method="post">
+              {% csrf_token %}
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="text" name="your-name" class="form-control" placeholder="Your Name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="text" name="your-phone" class="form-control" placeholder="Your Phone" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="email" name="your-email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="text" name="your-address" class="form-control" placeholder="Your Address">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <select name="your-schedule" class="form-control">
+                      <option value="First Choice Appoinment Time">First Choice Appoinment Time</option>
+                      <option value="9 AM to 10 AM">9 AM to 10 AM</option>
+                      <option value="11 AM to 12 PM">11 AM to 12 PM</option>
+                      <option value="2 PM to 4 PM">2 PM to 4 PM</option>
+                      <option value="8 PM to 10 PM">8 PM to 10 PM</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <select name="your-date" class="form-control">
+                      <option value="Select your Doctor">Select your Doctor</option>
+                      <option value="Dr Ram Shrestha">Dr Ram Shrestha</option>
+                      <option value="Dr Harry Shakya">Dr Harry Shakya</option>
+                      <option value="Dr Nabin neupane">Dr Nabin neupane</option>
+                      <option value="Dr Netra Bahadur">Dr Netra Bahadur</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group mb-30">
+                    <textarea name="your-message" class="form-control" placeholder="Your Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn dento-btn">Book </button>
+                </div>
+
+
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+{% endblock main_content %}
