@@ -37,13 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'patient',
+    'users',
     'bootstrapper',
     'bookings',
     'bootstrapform',
     'crispy_forms',
     'django_filters',
-    'doctors',
 
 
 ]

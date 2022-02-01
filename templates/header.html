@@ -116,21 +116,21 @@
               <!-- Please make sure if the user is authenticated -->
           {% if user.is_authenticated %}
                <li class="nav-item">
-            <a class="nav-link" href="/patient/dashboard">Go to Dashboard</a>
+            <a class="nav-link" href="/users/dashboard">Go to Dashboard</a>
           </li>
                   <li class="nav-item">
             <a class="nav-link" href="#">Find a Doctor </a>
           </li>
 
                    <li class="nav-item">
-            <a class="nav-link" href="/patient/profile">Profile</a>
+            <a class="nav-link" href="/users/profile">Profile</a>
           </li>
             <li class="nav-item">
             <a class="nav-link" href="/logout">Logout</a>
           </li>
           {% else %}
           <li class="nav-item">
-            <a class="nav-link" href="/patient/login">Login</a>
+            <a class="nav-link" href="/users/login">Login</a>
           </li>
           {% endif %}
             </ul>
