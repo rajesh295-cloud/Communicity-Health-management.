@@ -2,7 +2,7 @@
 <title>Appointment </title>
 {% block main_content %}
 
-<section class="book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix  p-4 p-md-5 pt-5" id="content">
+<section class="app book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix  p-4 p-md-5 pt-5" id="content">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -13,63 +13,50 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-12">
+      <div class="row pt-5 m-auto">
+        <div class="col-15">
 
           <div class="appointment-form">
             <form action="" method="post">
               {% csrf_token %}
               <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group mb-30">
+                <div class="col-md-6 col-auto ">
+                  <div class="form-group col-md-6">
                     <input type="text" name="your-name" class="form-control" placeholder="Your Name" required>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4 mb-3 col-auto">
                   <div class="form-group mb-30">
-                    <input type="text" name="your-phone" class="form-control" placeholder="Your Phone" required>
+                    <input type="text" name="your-phone" class="form-control" placeholder="Your Phonenumber" required>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-auto">
                   <div class="form-group mb-30">
                     <input type="email" name="your-email" class="form-control" placeholder="Your Email" required>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4 mb-3 col-auto">
                   <div class="form-group mb-30">
                     <input type="text" name="your-address" class="form-control" placeholder="Your Address">
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-auto">
                   <div class="form-group mb-30">
-                    <select name="your-schedule" class="form-control">
-                      <option value="First Choice Appoinment Time">First Choice Appoinment Time</option>
-                      <option value="9 AM to 10 AM">9 AM to 10 AM</option>
-                      <option value="11 AM to 12 PM">11 AM to 12 PM</option>
-                      <option value="2 PM to 4 PM">2 PM to 4 PM</option>
-                      <option value="8 PM to 10 PM">8 PM to 10 PM</option>
-                    </select>
+                    <input type="time" name="your-schedule" class="form-control" placeholder="Appointment time">
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4 mb-3 col-auto">
                   <div class="form-group mb-30">
-                    <select name="your-date" class="form-control">
-                      <option value="Choose Your Date">Choose Your Date</option>
-                      <option value="Monday">Monday</option>
-                      <option value="Tuesday">Tuesday</option>
-                      <option value="Wednesday">Wednesday</option>
-                      <option value="Thursday">Thursday</option>
-                      <option value="Friday">Friday</option>
-                    </select>
+                    <input type="date" name="your-date" class="form-control" placeholder="date">
                   </div>
                 </div>
                 <div class="col-12">
-                  <div class="form-group mb-30">
-                    <textarea name="your-message" class="form-control" placeholder="Your Message"></textarea>
+                  <div class="form-group mb-30 pb-5">
+                    <textarea style="height: 200px; width: 83%;" name="your-message" class="form-control" placeholder="Your Message"></textarea>
                   </div>
                 </div>
                 <div class="col-12 text-center">
-                  <button type="submit" class="btn dento-btn">Booking Now</button>
+                  <button type="submit" class="btn btn-info">Booking Now</button>
                 </div>
               </div>
             </form>
