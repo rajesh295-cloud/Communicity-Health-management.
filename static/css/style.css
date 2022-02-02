@@ -89,7 +89,7 @@
 }
 
 #left:hover{
-  background-color: aqua;
+  background-color: rgb(0, 131, 143);
 }
 
 #right{
@@ -160,7 +160,7 @@
 }
 
 .reg-btn:hover{
-  background-color: rgba(0, 105, 114);
+  background-color: rgb(254, 255, 255);
 }
 
 .gradient-form{
