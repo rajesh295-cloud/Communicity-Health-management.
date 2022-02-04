@@ -81,9 +81,6 @@
 
 
               <li class="nav-item">
-                <a class="nav-link" href="/set_appointment">Appointment</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#">Event</a>
               </li>
               <li class="nav-item dropdown">
@@ -107,7 +104,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallary</a>
+                <a class="nav-link" href="/gallery">Gallery</a>
               </li>
 
               <li class="nav-item">
@@ -115,6 +112,10 @@
               </li>
               <!-- Please make sure if the user is authenticated -->
           {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link" href="/set_appointment">Appointment</a>
+          </li>
+          
                <li class="nav-item">
             <a class="nav-link" href="/users/dashboard">Go to Dashboard</a>
           </li>

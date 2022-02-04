@@ -12,7 +12,8 @@ urlpatterns = [
     path('logout', views.logout, name = 'logout'),
     path('set_appointment', views.appointment, name = 'appointment'),
     path('users/profile',views.profile, name = 'profile'),
-    path('contactus', views.contactus, name = 'contactus')
+    path('contactus', views.contactus, name = 'contactus'),
+    path('gallery', views.gallery, name = 'gallery')
 
 ]
 

@@ -39,6 +39,10 @@ def contactus(request):
     return render(request, 'contactus.html')
 
 
+def gallery(request):
+    return render(request, 'gallery.html')
+
+
 
 @unauthenticated_user
 def logins(request):
