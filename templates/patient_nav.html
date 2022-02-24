@@ -1,0 +1,43 @@
+<div id="sidebar-wrapper">
+
+
+<section class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+        <div class="p-4 pt-5">
+          <a href="/" class="navbar-brand text-decoration-none text-white d-block mx-auto text-center mb-4 bottom-border pb-2">
+            <img src="/static/images/icon/logo.png" width="100" height="100"/>
+        </a>
+        <img src="https://img.icons8.com/ios/50/000000/change-user-male.png" width="50"height="50" alt="nice" class="rounded-circle mr-3">
+                        <a href="#" class="text-decoration-none text-white ">{{request.user.username }}</a>
+    <ul  class="list-unstyled components mb-5">
+      <li class="text-decoration-none active">
+        <a class="text-decoration-none" href="{% url 'home' %}"><img src="https://img.icons8.com/ios/50/000000/home--v1.png"/>Dashboard</a>
+      </li>
+      <li>
+
+            <li>
+          <a class="text-decoration-none" href="{% url 'makeappointments' %}"><img src="https://img.icons8.com/external-becris-lineal-becris/50/000000/external-booking-hotel-service-becris-lineal-becris.png"/>Booking</a>
+          </li>
+          <a class="text-decoration-none" href="{% url 'viewappointments' %}"><img src="https://img.icons8.com/external-others-iconmarket/50/000000/external-appointments-health-and-medical-others-iconmarket-4.png"/>Appointment</a>
+      </li>
+        <li>
+        <a class="text-decoration-none" href="{% url 'profile' %}"> <img src="https://img.icons8.com/ios/50/000000/add-contact-to-company.png"/>Profile</a>
+        </li>
+
+
+        <li>
+        <a class="link-dark text-decoration-none" href="/logout"><img src="https://img.icons8.com/external-sbts2018-mixed-sbts2018/30/000000/external-logout-social-media-sbts2018-mixed-sbts2018.png"/>logout</a>
+        </li>
+
+
+
+    </ul>
+
+  </div>
+
+</nav>
+
+
+
+
+</div>

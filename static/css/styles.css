@@ -1,0 +1,362 @@
+.general-area-home {
+  padding-top: 100px;
+  padding-right: 10px;
+  text-align: center;
+  padding-left: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+.h1, h1 {
+  font-size: 60px;
+  
+}
+
+.h3, h3 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.text-center {
+  margin-top: 30px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.navi{
+  display:flex;
+  justify-content: space-between;
+}
+
+.nav1 {
+  background-color: rgb(0, 131, 143);
+}
+
+.nav2 {
+  background-color: rgb(0, 105, 114);
+}
+.navi {
+  padding-left: 40%;
+}
+
+.nav_home {
+  margin-left: 70px;
+}
+
+
+.foot1 {
+  background-color: rgb(0, 105, 114);
+  height: max-content;
+  width: auto;
+}
+
+.social {
+  padding: 30px 30px;
+  display: flex;
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  list-style-type: none;
+  float: left;
+  margin: 10px;
+}
+
+.foot2 {
+  background-color: rgb(0, 131, 143);
+  height: max-content;
+}
+
+.foot2 li{
+  list-style: none;
+}
+
+
+
+.footcon {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.mySlides {
+  width: 100%;
+  height: 100vh;
+}
+
+#left{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 1.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(85, 85, 85, 0);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 100vh;
+}
+
+#left:hover{
+  background-color: rgba(0, 131, 143, 0);
+}
+
+#right{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 97.8%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(85, 85, 85, 0);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#right:hover{
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.img{
+  position: relative;
+}
+/* registration */
+
+.reg{
+  background-image:url(/static/images/a-photo-of-stethoscopes-and-patient-registration-form-on-white-background-KYT51M.jpg);
+  background-size: cover;
+}
+
+*[role="form"] {
+  max-width: 730px;
+  margin: 0 auto;
+  border-radius: 0.3em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(0, 90, 150, 0.096);}
+
+
+*[role="form"] h2 {
+  font-family: 'Open Sans' , sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+*[role="form"] label {
+  color: #000000;
+}
+
+
+.logimg{
+  height: auto;
+  width: 350px;
+}
+
+.reg-btn{
+  background-color: rgb(0, 131, 143);
+}
+
+.reg-btn:hover{
+  background-color: rgb(254, 255, 255);
+}
+
+.gradient-form{
+  background-image: url(/static/images/rethink-target-heart-rate-number-ftr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card{
+  background: rgba(0, 90, 150, 0.096);
+}
+
+.register{
+  display: flex;
+  justify-content: center;
+}
+
+/* contact */
+
+.contact-form{
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form{
+  padding: 14%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.aboutus-area {
+  padding-top:10px;
+   padding-bottom:10px;
+}
+/*-- aboutus Image --*/
+.aboutus-image {
+margin: 0px;
+width: 480px; 
+  height:500px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .aboutus-image {
+    margin-right: 35px;
+    width: 345px; } 
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .aboutus-image {
+    margin-bottom: 30px;
+    float: none; } }
+@media only screen and (max-width: 767px) {
+  .aboutus-image {
+    margin-bottom: 30px;
+    margin-right: 0;
+    float: none;
+    width: auto;  }
+       .hidden-sm {
+    display: block!important;
+    width: 340px;
+    height: 85%;
+}
+}
+.aboutus-image img {
+    height:100%;
+  width: 100%; }
+
+/*-- aboutus Content --*/
+.aboutus-content h2 {
+font-size: 40px;
+font-weight: 800;
+line-height: 40px;
+margin-bottom: 2px; }
+@media only screen and (max-width: 479px) {
+  .aboutus-content h2 {
+    font-size: 30px;
+    line-height: 30px; } }
+.aboutus-content h2 span {
+  color: #71b100; }
+
+.aboutus-content h4 {
+font-size: 18px;
+font-weight: 500;
+color: #9b9b9b;
+margin-bottom: 23px; }
+
+.aboutus-content p {
+font-size: 16px;
+line-height: 27px; }
+
+/*-- counter --*/
+.single-counter {
+border:none;
+margin-top: 32px;
+float: left;
+width: 100%; }
+ .single-counter {
+  float: left;
+  width: 25%;
+  padding: 28px 15px 28px; }
+  @media only screen and (max-width: 767px) {
+    .counter .single-counter {
+      width: 50%; }
+    
+  .counter .single-counter + .single-counter {
+    border-left: none }
+  .counter .single-counter h2 {
+    font-size: 30px;
+    color: #71b100;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 8px; }
+  .counter .single-counter p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #8f8f8f; }
+
+/* dashdord */
+
+
+
+/* navbar */
+
+/* end navbar */

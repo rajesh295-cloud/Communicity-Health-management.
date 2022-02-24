@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include 'base.html' %}
+    {% load static %}
+</head>
+<title>Admin Home </title>
+<body>
+    <div id="wrapper">
+        {% include 'admin_side.html' %}
+        <div class="page-content-wrapper">
+            <div class="container-fluid"><a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars" style="color: white;"></i></a>
+                <h1 class="text-center" style="color: black;">You are sucessfully logged in..{{ user.username }}</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{% include 'base.html' %}
+{% include 'header.html' %}
+
+{% block body %}
+
+{% ifequal error "no" %}
+<script type="text/javascript">
+	alert('Logged In Sucessfully..........')
+	window.location = ('{% url 'adminhome' %}')
+</script>
+{% endifequal%}
+
+{% ifequal error "yes" %}
+<script type="text/javascript">
+	alert('Invalid Credentials..........')
+</script>
+{% endifequal%}
+<title>Admin Login </title>
+
+	<section class="h-100 gradient-form" style="background-color: #eee;">
+		<div class="container py-5 h-100">
+			 <form method="POST" >
+						   {% csrf_token %}
+		  <div class="row d-flex justify-content-center align-items-center h-100">
+			<div class="col-xl-10">
+			  <div class="card rounded-3 text-black">
+				<div class="row g-0">
+				  <div class="col-lg-6">
+					<div class="card-body p-md-5 mx-md-4">
+
+					  <div class="text-center">
+						<img src="/static/images/icon/logo.png" style="width: 185px;" alt="logo">
+					  </div>
+
+					  <form>
+						<p>Please login to your account</p>
+						  <div class="form-outline mb-4">
+
+
+
+								 <div class="form-group"><input type="text" class="form-control" name="username" placeholder="username"></div>
+							  <div class="form-group"><input type="password" class="form-control" name="password" placeholder="password"></div>
+							 <div class="form-group"><input type="submit" value="Login" class="form-control btn btn-primary"></div>
+						  </div>
+
+
+
+						<div class="d-flex align-items-center justify-content-center pb-4">
+
+
+						</div>
+
+
+					  </form>
+
+					</div>
+				  </div>
+				  <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+					<div class=" px-3 py-4 p-md-5 mx-md-4">
+					  <img class="logimg" src="https://png.pngtree.com/element_our/20200610/ourlarge/pngtree-online-doctor-consultation-image_2248276.jpg" alt="login">
+
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+{% endblock %}
