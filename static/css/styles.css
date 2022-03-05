@@ -7,13 +7,13 @@
   margin-right: 80px;
 }
 
-
-.h1, h1 {
+.h1,
+h1 {
   font-size: 60px;
-  
 }
 
-.h3, h3 {
+.h3,
+h3 {
   font-size: 25px;
   margin-top: 40px;
 }
@@ -29,8 +29,8 @@ p {
   margin-right: 30px;
 }
 
-.navi{
-  display:flex;
+.navi {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -48,7 +48,6 @@ p {
 .nav_home {
   margin-left: 70px;
 }
-
 
 .foot1 {
   background-color: rgb(0, 105, 114);
@@ -77,11 +76,9 @@ p {
   height: max-content;
 }
 
-.foot2 li{
+.foot2 li {
   list-style: none;
 }
-
-
 
 .footcon {
   display: flex;
@@ -89,7 +86,6 @@ p {
   padding-top: 30px;
   text-decoration: none;
 }
-
 
 .mySlides {
   display: none;
@@ -100,7 +96,7 @@ p {
   height: 100vh;
 }
 
-#left{
+#left {
   background-color: transparent;
   outline: none;
   border: none;
@@ -120,11 +116,11 @@ p {
   height: 100vh;
 }
 
-#left:hover{
+#left:hover {
   background-color: rgba(0, 131, 143, 0);
 }
 
-#right{
+#right {
   background-color: transparent;
   outline: none;
   border: none;
@@ -143,17 +139,16 @@ p {
   text-align: center;
 }
 
-#right:hover{
+#right:hover {
   background-color: rgba(0, 255, 255, 0);
 }
 
-.img{
+.img {
   position: relative;
 }
-/* registration */
 
-.reg{
-  background-image:url(/static/images/a-photo-of-stethoscopes-and-patient-registration-form-on-white-background-KYT51M.jpg);
+.reg {
+  background-image: url(/static/images/a-photo-of-stethoscopes-and-patient-registration-form-on-white-background-KYT51M.jpg);
   background-size: cover;
 }
 
@@ -163,11 +158,11 @@ p {
   border-radius: 0.3em;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: rgba(0, 90, 150, 0.096);}
-
+  background: rgba(0, 90, 150, 0.096);
+}
 
 *[role="form"] h2 {
-  font-family: 'Open Sans' , sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: #000000;
@@ -181,62 +176,61 @@ p {
   color: #000000;
 }
 
-
-.logimg{
+.logimg {
   height: auto;
   width: 350px;
 }
 
-.reg-btn{
+.reg-btn {
   background-color: rgb(0, 131, 143);
 }
 
-.reg-btn:hover{
+.reg-btn:hover {
   background-color: rgb(254, 255, 255);
 }
 
-.gradient-form{
+.gradient-form {
   background-image: url(/static/images/rethink-target-heart-rate-number-ftr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.card{
+.card {
   background: rgba(0, 90, 150, 0.096);
 }
 
-.register{
+.register {
   display: flex;
   justify-content: center;
 }
 
-/* contact */
 
-.contact-form{
+
+.contact-form {
   background: #fff;
   margin-top: 10%;
   margin-bottom: 5%;
   width: 70%;
 }
-.contact-form .form-control{
-  border-radius:1rem;
+.contact-form .form-control {
+  border-radius: 1rem;
 }
-.contact-image{
+.contact-image {
   text-align: center;
 }
-.contact-image img{
+.contact-image img {
   border-radius: 6rem;
   width: 11%;
   margin-top: -3%;
   transform: rotate(29deg);
 }
-.contact-form form{
+.contact-form form {
   padding: 14%;
 }
-.contact-form form .row{
+.contact-form form .row {
   margin-bottom: -7%;
 }
-.contact-form h3{
+.contact-form h3 {
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
@@ -252,8 +246,7 @@ p {
   color: #fff;
   cursor: pointer;
 }
-.btnContactSubmit
-{
+.btnContactSubmit {
   width: 50%;
   border-radius: 1rem;
   padding: 1.5%;
@@ -263,100 +256,107 @@ p {
   cursor: pointer;
 }
 
-
-
 .aboutus-area {
-  padding-top:10px;
-   padding-bottom:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /*-- aboutus Image --*/
 .aboutus-image {
-margin: 0px;
-width: 480px; 
-  height:500px;
+  margin: 0px;
+  width: 480px;
+  height: 500px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .aboutus-image {
     margin-right: 35px;
-    width: 345px; } 
-    
+    width: 345px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .aboutus-image {
     margin-bottom: 30px;
-    float: none; } }
+    float: none;
+  }
+}
 @media only screen and (max-width: 767px) {
   .aboutus-image {
     margin-bottom: 30px;
     margin-right: 0;
     float: none;
-    width: auto;  }
-       .hidden-sm {
-    display: block!important;
+    width: auto;
+  }
+  .hidden-sm {
+    display: block !important;
     width: 340px;
     height: 85%;
-}
+  }
 }
 .aboutus-image img {
-    height:100%;
-  width: 100%; }
+  height: 100%;
+  width: 100%;
+}
 
-/*-- aboutus Content --*/
 .aboutus-content h2 {
-font-size: 40px;
-font-weight: 800;
-line-height: 40px;
-margin-bottom: 2px; }
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  margin-bottom: 2px;
+}
 @media only screen and (max-width: 479px) {
   .aboutus-content h2 {
     font-size: 30px;
-    line-height: 30px; } }
+    line-height: 30px;
+  }
+}
 .aboutus-content h2 span {
-  color: #71b100; }
+  color: #71b100;
+}
 
 .aboutus-content h4 {
-font-size: 18px;
-font-weight: 500;
-color: #9b9b9b;
-margin-bottom: 23px; }
+  font-size: 18px;
+  font-weight: 500;
+  color: #9b9b9b;
+  margin-bottom: 23px;
+}
 
 .aboutus-content p {
-font-size: 16px;
-line-height: 27px; }
+  font-size: 16px;
+  line-height: 27px;
+}
 
-/*-- counter --*/
 .single-counter {
-border:none;
-margin-top: 32px;
-float: left;
-width: 100%; }
- .single-counter {
+  border: none;
+  margin-top: 32px;
+  float: left;
+  width: 100%;
+}
+.single-counter {
   float: left;
   width: 25%;
-  padding: 28px 15px 28px; }
-  @media only screen and (max-width: 767px) {
-    .counter .single-counter {
-      width: 50%; }
-    
+  padding: 28px 15px 28px;
+}
+@media only screen and (max-width: 767px) {
+  .counter .single-counter {
+    width: 50%;
+  }
+
   .counter .single-counter + .single-counter {
-    border-left: none }
+    border-left: none;
+  }
   .counter .single-counter h2 {
     font-size: 30px;
     color: #71b100;
     line-height: 24px;
     font-family: "Open Sans", sans-serif;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+  }
   .counter .single-counter p {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 0;
-    color: #8f8f8f; }
+    color: #8f8f8f;
+  }
 
-/* dashdord */
-
-
-
-/* navbar */
-
-/* end navbar */
+ 
+}

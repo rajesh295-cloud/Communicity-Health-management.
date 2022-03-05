@@ -22,7 +22,7 @@ body {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background-color: rgb(0, 105, 114);;
+  background-color: rgb(0, 105, 114);
   box-shadow: 5px 7px 25px rgb(0, 131, 143);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -68,10 +68,11 @@ body {
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.sidebar-nav li a:active, .sidebar-nav li a:focus {
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
   text-decoration: none;
 }
 
@@ -90,41 +91,40 @@ body {
   background: none;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   #wrapper {
     padding-left: 250px;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   #wrapper.toggled {
     padding-left: 0;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   #sidebar-wrapper {
     width: 250px;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   #wrapper.toggled #sidebar-wrapper {
     width: 0;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   #page-content-wrapper {
     padding: 20px;
     position: relative;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
   }
 }
-

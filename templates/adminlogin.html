@@ -5,7 +5,7 @@
 
 {% ifequal error "no" %}
 <script type="text/javascript">
-	alert('Logged In Sucessfully..........')
+	alert('Logged In Successfully..........')
 	window.location = ('{% url 'adminhome' %}')
 </script>
 {% endifequal%}
@@ -15,6 +15,7 @@
 	alert('Invalid Credentials..........')
 </script>
 {% endifequal%}
+
 <title>Admin Login </title>
 
 	<section class="h-100 gradient-form" style="background-color: #eee;">
